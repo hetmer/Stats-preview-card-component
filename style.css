@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.card{
+    margin-top: 10rem;
+    margin-left: 15rem;
+    width: 90rem;
+    height: 35rem;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 1rem;
+    display: flex;
+}
+
+.left{
+    width: 45rem;
+    height: 35rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+    margin-top: 6rem;
+    text-align: left;
+}
+
+.left h4{
+    font-size: 40px;
+}
+
+.left p {
+    margin-top: 2.5rem;
+    margin-right: 5rem;
+    color: rgb(199, 194, 194);
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin-top: 7rem;   
+}
+
+.details h3{
+    font-size: 30px;
+}
+
+.details p{
+    font-size: 12px;
+    margin-top: 2px;
+    letter-spacing: 2px;
+}
+
+span{
+    color:  hsl(277, 64%, 61%);
+}
+
+.right{
+    background-color: hsl(277, 64%, 61%);;
+}
+
+
+.right img{
+    width: 45rem;
+    height: 35rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    mix-blend-mode: multiply;
+}
+
+
+.attribution { 
+    font-size: 16px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: rgb(18, 186, 192);
+}
